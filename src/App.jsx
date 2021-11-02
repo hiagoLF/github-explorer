@@ -1,8 +1,7 @@
 import React from "react";
-
-
-throw new Error('Eita !!!')
+import { RepositoryList } from "./components/RepositoryList";
+import "./styles/global.scss";
 
 export function App() {
-  return <h1>Só sucesso</h1>;
+  return <RepositoryList />;
 }
